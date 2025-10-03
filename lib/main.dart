@@ -15,13 +15,13 @@ class QRScannerPage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            // Top bar without left icon
+            
             Padding(
               padding: EdgeInsets.all(16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Removed left icon
+                 
                   Text(
                     "Scan QR Code",
                     style: TextStyle(
@@ -34,7 +34,7 @@ class QRScannerPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 40),
-            // Scanner box
+           
             Expanded(
               child: Center(
                 child: Container(
@@ -69,7 +69,7 @@ class QRScannerPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 30),
-            // Scan button
+           
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
               child: SizedBox(
@@ -95,3 +95,4 @@ class QRScannerPage extends StatelessWidget {
     );
   }
 }
+
